@@ -11,7 +11,6 @@ body {
     font-style: normal;
     line-height: 1.5;
     color: white;
-    max-width: 90rem;
     margin: 5rem auto;
 }
 
@@ -31,8 +30,13 @@ nav {
     justify-content: space-between;
 }
 
-main {
+nav h1 {
+    display: inline;
+    align-items: center;
+}
 
+main {
+width: 100%;
 }
 
 footer {
@@ -58,12 +62,11 @@ nav {
 }
 
 p {
-    color: #FFF;
-    font-family: Rocky;
-    font-size: 1.25rem;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
+    font-family: "rocky", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    color: white;
 }
 
 h2,
@@ -87,4 +90,25 @@ a:visited,
 .selected {
     color: #5093D3;
     border-bottom: 1px solid #5093D3;
+}
+
+main img {
+    width: 100%;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #FFF;
+    display: inline-block;
+  }
+
+.arrow-right:hover{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #5093D3;
 }
