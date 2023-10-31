@@ -93,8 +93,6 @@ footer {
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-    border: 4px solid #FFF;
-  
 }
 
 a {
@@ -172,5 +170,13 @@ a:visited,
     grid-auto-flow: dense;
     margin-top: none;
     padding-bottom: none;
+}
+
+.desc_right h2 {
+    border: 4px solid #FFF;
+}
+
+.desc_left h2 {
+    border: 4px solid #FFF;
 }
 
