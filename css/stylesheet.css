@@ -47,6 +47,9 @@ section {
     grid-template-columns: repeat (12, 1fr);
     grid-column-gap: 1.5rem;
     grid-auto-flow: dense;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 4px solid #FFF;
 }
 
 footer {
@@ -90,6 +93,8 @@ footer {
     font-style: italic;
     font-weight: 700;
     line-height: normal;
+    border: 4px solid #FFF;
+  
 }
 
 a {
@@ -140,8 +145,32 @@ a:visited,
     grid-column: 8/13; 
 }
 
+.img_left {
+    grid-column: 1/5;
+}
+
 .desc_left {
     grid-column: 2/6; 
 }
 
+.desc_right {
+    grid-column: 9/11;
+}
+
+.desc_about {
+    grid-column: 4/5;
+}
+
+.img_leftabout {
+    grid-column: 1/3;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
+    margin-top: none;
+    padding-bottom: none;
+}
 
