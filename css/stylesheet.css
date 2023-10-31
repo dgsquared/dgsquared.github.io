@@ -180,3 +180,10 @@ a:visited,
     border: 4px solid #FFF;
 }
 
+#splash body {
+    background-image: url("img/splash.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
