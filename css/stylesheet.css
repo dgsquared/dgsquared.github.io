@@ -58,7 +58,7 @@ footer {
     font-style: italic;
     color: white;
     width: 100%;
-    margin: 4rem;
+    margin: 4rem 0px;
     display:flex;
     align-items: center;
     justify-content: left;
@@ -79,6 +79,7 @@ nav {
 p {
     font-family: "rocky", serif;
     font-weight: 500;
+    font-size: 1.3rem;
     font-style: normal;
     line-height: 1.5;
     color: white;
@@ -144,7 +145,7 @@ a:visited,
 }
 
 .img_left {
-    grid-column: 1/5;
+    grid-column: 1/6;
 }
 
 .desc_left {
@@ -174,16 +175,18 @@ a:visited,
 
 .desc_right h2 {
     border: 4px solid #FFF;
+    width: fit-content;
+    block-size: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .desc_left h2 {
     border: 4px solid #FFF;
+    width: fit-content;
+    block-size: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#splash body {
-    background-image: url("img/splash.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
