@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>about</title>
+        <title>contact</title>
         <meta name="description" content="Diego Gomez Design Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/stylesheet.css">
@@ -27,23 +27,36 @@
                     <h1>work</h1>
                 </a>
                 <a href="about.html">
-                    <span class="arrow-right-blue"></span>
-                    <h1 class="selected">about</h1>
+                    <div class="arrow-right"></div>
+                    <h1>about</h1>
                 </a>
                 <a href="contact.html">
-                    <div class="arrow-right"></div>
-                    <h1>contact</h1>
+                    <span class="arrow-right-blue"></span>
+
+                    <h1 class="selected">contact</h1>
                 </a>
             </nav>
         </header>
-        <main id="about">
-            <section id="splashsection">
-                <img src="img/about.webp" alt="an headshot of diego gomez" class="img_leftabout" height="100%">
-            </section>
-            <section class="desc_about" id="splashsection">
-                <h2>Diego Gómez is an emerging multidisciplinary designer based in San Francisco.</h2>
-                <p>Diego was born in Oakland and raised in Washington State. A healthy exposure to the arts throughout his childhood developed his creative senses. These were further honed in various activities, including LEGO building, a hobby which Diego participates in to this day. He attributes this to imbuing him with a passion for details, structure, and unity within his work. Presently, Diego is majoring in design and mastering his craft in graphic design, typography, and web design. In his spare time, he curates social media and develops graphic materials for a Latiné student organization, DJs at his local college radio station, and independently studies photography. He takes whatever opportunities he can get to work in new mediums and disciplines.</p>
-            </section>
+        <main>
+            <h2 id="kms">please work with me so you can give me money :) </h2>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkdzvon" method="post">
+                <fieldset id="fs-frm-inputs">
+                <div>
+                  <label for="full-name">Name</label>
+                  <input type="text" name="name" id="full-name" placeholder="the whole thing" required="">
+                </div>
+                <div>
+                  <label for="email-address">Email Address</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@where.ever" required="">
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <textarea rows="5" name="message" id="message" placeholder="type here!" required=""></textarea>
+                </div>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+              </form>
         </main>
         <footer>
             <h1>diego gomez 2023</h1>
