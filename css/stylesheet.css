@@ -14,6 +14,23 @@ body {
     margin: auto;
 }
 
+.splash {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../img/splash.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 header {
     font-family: "rocky", serif;
     font-weight: 700;
@@ -55,6 +72,7 @@ section {
 #splashsection {
     border-bottom: none;
     padding-bottom: none;
+    z-index: 2;
 }
 
 footer {
@@ -66,9 +84,11 @@ footer {
     margin: 4rem 0px;
     display:flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     border-top: 4px solid #FFF;
     height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h1,
@@ -200,24 +220,21 @@ a:visited,
     block-size: fit-content;
     padding-left: 10px;
     padding-right: 10px;
-    position: absolute;
-    
+    position: fixed;
+    z-index: 1;
     right: 40px;
+    bottom: 25%;
 }
 
-body, html {
-    height: 100%;
-  }
-  
-  .bg {
-    /* The image used */
-    background-image: url("../img/splash.png");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.square {
+    height: 30px;
+    width: 30px;
+    background-color: #FFF;
+}
+
+.square:hover{
+    height: 30px;
+    width: 30px;
+    background-color: #5093D3;
+}
+
