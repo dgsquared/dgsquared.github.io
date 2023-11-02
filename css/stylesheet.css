@@ -41,6 +41,7 @@ header {
     justify-content: space-between;
     border-bottom: 4px solid #FFF;
     height: 4rem;
+    padding-right: 2rem;
 }
 
 nav {
@@ -343,4 +344,23 @@ form select {
     background: url(../img/splash.png), lightgray 50% / cover no-repeat;
     height: 60rem;
     width: 100%;
+    margin-top: none;
+    padding-top: none;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+
+.footdex{
+    padding-top: none;
+    margin-top: none;
+}
+
+#wall{
+    background: url(../img/contact.webp), lightgray 50% / cover no-repeat;
+    height: 60rem;
+    width: 100%;
+    margin-top: none;
+    padding-top: none;
+    margin-bottom: none;
+    padding-bottom: none;
 }
