@@ -238,3 +238,13 @@ a:visited,
     background-color: #5093D3;
 }
 
+#contactbox{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid #FFF;
+    height: 4rem;
+    width: 400px;
+    block-size: fit-content;
+    padding: 1rem;
+}
