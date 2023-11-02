@@ -338,3 +338,9 @@ form [type="reset"]:focus {
 form select {
   text-transform: none;
 }
+
+.index{
+    background: url(../img/splash.png), lightgray 50% / cover no-repeat;
+    height: 60rem;
+    width: 100%;
+}
